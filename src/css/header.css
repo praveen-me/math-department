@@ -1,0 +1,52 @@
+/* Header CSS Starts */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.logo-img {
+    max-width: 100px;
+    width: 100%;
+}
+
+.logo-container {
+    justify-self: center;
+    align-self: center;
+}
+
+.logo-subhead {
+    font-weight: bolder;
+}
+
+.logo {
+    font-family : 'Algerian';
+    font-size: 2rem;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 300;
+    display: block;
+    margin: 0.8rem 0;
+}
+
+.nav-block:hover {
+    background-color: rgb(105, 75, 5);
+}
+
+.nav-block {
+    background: #B27E09;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px;
+}
+
+.nav {
+    margin: 1rem 0;
+}
+/* Header CSS Ends */
